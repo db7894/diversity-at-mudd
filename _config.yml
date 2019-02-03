@@ -1,8 +1,8 @@
 # Setup
 title:        Diversity at Mudd
 tagline:      A centralized home for diversity resources at Mudd
-baseurl:      ""
-url:          "diversity-site-v2/"
+baseurl:      ''
+url:          "db7894.github.io/diversity-site-v2/"
 paginate:     1
 locale:       "en"
 
