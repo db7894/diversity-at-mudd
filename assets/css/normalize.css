@@ -467,7 +467,7 @@ th {
   -ms-flex-direction: row;
   flex-direction: column;
   -webkit-justify-content: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 /* Style the links inside the navigation bar */
