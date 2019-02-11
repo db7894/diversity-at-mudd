@@ -5,14 +5,27 @@
       {% include head-home.html %}
 
       <body>
-        {% include page-header.html %}
+        <section class="page-header">
+          <div class="topnav">
+              <ul style="list-style-type:none;">
+                  <li><a href="/diversity-site-v2">Home</a></li>
+                  <li><a href="/diversity-site-v2/resources">Resources</a></li>
+                  <li><a href="/diversity-site-v2/people">People</a></li>
+                  <li><a href="/diversity-site-v2/groups">Groups</a></li>
+              </ul>
+          </div>
+          <br><br>
+          <h1 class="project-name">{{ site.title }}</h1>
+          <h2 class="project-tagline">{{ site.tagline }}</h2>
+          <a href="#" class="btn">View on GitHub</a>
 
-        <section class="main-content">
+          <section class="main-content">
 
-          {{ content }}
+            {{ content }}
 
-          {% include page-footer.html %}
+            {% include page-footer.html %}
 
+          </section>
         </section>
 
       </body>
